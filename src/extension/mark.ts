@@ -66,3 +66,23 @@ const font_color_mark__basic = ViewPlugin.fromClass(class {
 export function font_color_mark__basic_extension() {
   return font_color_mark__basic
 }
+
+
+//SHOW window for remote changes - commits -> changed files
+
+// this.registerEvent(
+// 	this.app.workspace.on('editor-menu', (menu, editor: Editor) => {
+// 		menu.addItem((item) => {
+// 			item
+// 				.setTitle("Get Block")
+// 				.setIcon("block")
+// 				.onClick(async () => {
+// 					console.log(editor)
+// 					console.log(editor.getScrollInfo())
+// 					console.log(editor.getValue())
+// 					console.log(editor.getLine(editor.listSelections()[0].head.line))
+// 					console.log(editor.getDoc())
+// 				})
+// 		})
+// 	})
+// )

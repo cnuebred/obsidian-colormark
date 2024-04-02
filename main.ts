@@ -25,18 +25,7 @@ export default class ColorMark extends Plugin {
 		});
 
 		await this.loadSettings()
-		
-		this.addCommand({
-			id: 'gitlab_test_snowflake',
-			name: 'test',
-			callback: async () => {
 				
-			}
-		})
-		this.addRibbonIcon('send', 'Send local changes', async (evt: MouseEvent) => {
-		}).addClass('my-plugin-ribbon-class')
-		
-		
 		this.registerEvent(
 			this.app.workspace.on("editor-menu", (menu, editor) => {
 				menu.addSeparator()
