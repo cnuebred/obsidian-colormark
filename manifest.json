@@ -1,11 +1,11 @@
 {
 	"id": "color_mark",
 	"name": "ColorMark",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "",
 	"author": "Jonatan Nyga",
 	"authorUrl": "https://github.com/cnuebred",
-  "fundingUrl": "https://www.buymeacoffee.com/cnuebred",
+	"fundingUrl": "https://www.buymeacoffee.com/cnuebred",
 	"isDesktopOnly": false
 }
